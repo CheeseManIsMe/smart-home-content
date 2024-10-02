@@ -1,0 +1,29 @@
+body {
+    background-color: #024959;
+    color: white;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+    color: #F2B705;
+    font-size: 12px;
+    background-color: #003642;
+}
+
+a { 
+    color: #F2B705;
+    text-decoration: none;
+    border: black solid 1px;
+    background-color: #024959;
+}
+
+.phone{
+    display: flex;
+    border:black 1px solid;
+    background-color: #024959;
+    
+}
+

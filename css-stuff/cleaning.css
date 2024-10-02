@@ -1,0 +1,15 @@
+body {
+    background-color: #024959;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    color: #F2B705;
+}
+
+a { 
+    color: #F2B705;
+    text-decoration: none;
+}
