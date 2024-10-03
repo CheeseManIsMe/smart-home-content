@@ -15,21 +15,42 @@ header{
     padding: 10px;
 }
 
-a { 
+a, .phone { 
+    display: flex;
+    flex-wrap: wrap;
     color: #F2B705;
     text-decoration: none;
     border: black solid 1px;
     background-color: #024959;
     padding: 10px;
-
+    height: 30px;
+    width: 150px;
+    align-content: center;
+    justify-content: center;
+    
 }
 
-.phone{
-    display: flex;
-    flex-wrap: wrap;
-    border:black 1px solid;
-    background-color: #024959;
-    padding: 10px;
-    margin: 0px;
+
+.main-image {
+    position: relative;
+    text-align: center;
 }
 
+.image-text1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 90px;
+    width: 400px;
+    font-size: 20px;
+}
+
+.image-text2 {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: black transparent;
+     
+}
