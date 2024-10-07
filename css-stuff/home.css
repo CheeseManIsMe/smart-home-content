@@ -1,6 +1,7 @@
 body {
     background-color: #024959;
     color: white;
+    margin: 0px;
 }
 
 
@@ -12,7 +13,15 @@ header{
     color: #F2B705;
     font-size: 12px;
     background-color: #003642;
-    padding: 10px;
+    padding: 5px;
+    height: 60px;
+}
+
+h3 {
+    display: flex;
+    margin: 0px;
+    justify-items: center;
+    align-content: center
 }
 
 a, .phone { 
@@ -27,7 +36,7 @@ a, .phone {
     width: 150px;
     align-content: center;
     justify-content: center;
-    
+    border-radius: 10px;
 }
 
 
@@ -36,6 +45,8 @@ a, .phone {
     text-align: center;
 }
 
+
+
 .image-text1 {
     position: absolute;
     top: 50%;
@@ -43,14 +54,26 @@ a, .phone {
     transform: translate(-50%, -50%);
     height: 90px;
     width: 400px;
-    font-size: 20px;
+    font-size: 40px;
+    background: rgba(0,0,0, .5) ;
+    padding: 5px
 }
 
 .image-text2 {
     position: absolute;
-    top: 65%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: black transparent;
-     
+    background: rgba(0,0,0, .5) ;
+    padding: 5px
+}
+
+.text-overlay {
+    background-color: black;
+}
+
+.main-png {
+    height: 1090px;
+    width: 2025px;
+    object-fit: cover;
 }
