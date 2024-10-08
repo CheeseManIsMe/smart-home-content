@@ -4,6 +4,7 @@ body {
     margin: 0px;
 }
 
+/* Navbar Section */
 
 header{
     display: flex;
@@ -13,15 +14,17 @@ header{
     color: #F2B705;
     font-size: 12px;
     background-color: #003642;
-    padding: 5px;
+    padding: px;
     height: 60px;
 }
 
+
 h3 {
     display: flex;
-    margin: 0px;
+    margin: 5px;
     justify-items: center;
-    align-content: center
+    align-content: center;
+    height: 51.6px;
 }
 
 a, .phone { 
@@ -39,6 +42,7 @@ a, .phone {
     border-radius: 10px;
 }
 
+/* Main Image Section */
 
 .main-image {
     position: relative;
@@ -68,12 +72,82 @@ a, .phone {
     padding: 5px
 }
 
-.text-overlay {
-    background-color: black;
-}
 
 .main-png {
     height: 1090px;
     width: 2025px;
     object-fit: cover;
+    border: #003642 3px solid;
+}
+
+/* Summary Section */
+
+.summary-image {
+    object-fit: cover;
+    height: 436px;
+    width: 600px;
+    display: flex;
+    
+    border: #003642 3px solid;
+    border-radius: 15px;
+    order: 3;
+}
+
+.summary-head {
+    align-self: center;
+    justify-self: center;
+    font-size: 30px;
+    order: 2;
+    
+}
+
+.summary-body {
+    align-self: flex-end;
+    height: 61px;
+    width: 466px;
+    font-size: 20px;
+    order: 1;
+}
+
+
+.summary {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    padding: 15px;
+}
+
+.summary-text {  
+    align-self: center;
+    height: 239px;
+    width: 501px;
+    border: black 1px solid;
+    border-radius: 15px;
+    background: #016E86;
+    padding: 17px;
+}
+
+/* Purchasing Section */
+
+.purchase-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background: #003642;
+    height: 300px;
+}
+
+.purchase-head {
+    justify-self: center;
+    align-self: center
+
+}
+
+.purchase-body {
+    justify-self: center;
+    align-self: center;
+    width: 466px;
+    text-align: center;
 }
