@@ -2,6 +2,7 @@ body {
     background-color: #024959;
     color: white;
     margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /* Navbar Section */
@@ -27,7 +28,7 @@ h3 {
     height: 51.6px;
 }
 
-a, .phone { 
+a, .phone, .logo-text { 
     display: flex;
     flex-wrap: wrap;
     color: #F2B705;
@@ -40,6 +41,11 @@ a, .phone {
     align-content: center;
     justify-content: center;
     border-radius: 10px;
+}
+
+h2 {
+    display: flex;
+    justify-self: flex-start;
 }
 
 /* Main Image Section */
@@ -150,4 +156,86 @@ a, .phone {
     align-self: center;
     width: 466px;
     text-align: center;
+}
+
+/* Description Section */
+
+.descriptions {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    
+}
+
+.conveniences-desc {
+    flex-direction: column;
+    background-color: #016E86;
+    border: #003642 solid 3px;
+}
+
+.cleaning-desc {
+    flex-direction: column;
+    background-color: #016E86;
+    border: #003642 solid 3px;
+}
+
+.security-desc {
+    flex-direction: column;
+    background-color: #016E86;
+    border: #003642 solid 3px;
+}
+
+.cleaning-rat {
+    object-fit: cover;
+    width: 415px;
+    height: 250px;
+    border: #003642 solid 3px;
+}
+
+.stove {
+    object-fit: cover;
+    width: 415px;
+    height: 250px;
+    border: #003642 solid 3px;
+}
+
+.snakes {
+    object-fit: cover;
+    width: 415px;
+    height: 250px;
+    border: #003642 solid 3px;
+}
+
+.text {
+    width: 400px;
+    padding: 5px;
+    
+}
+
+/* Footer Section */
+
+footer {
+    display: flex;
+    margin: 0px;
+    background-color: #003642;
+    
+}
+
+.logo2 {
+    border: black solid 3px;
+    border-radius: 15px;
+}
+
+.logo2-text {
+    justify-content: center;
+    align-self: center;
+    background-color: #024959;
+    width: 250px;
+    height: 50px;
+    margin-left: 50px;
+    padding: 25px;
+    text-align: center;
+    font-size: 35px;
+    border: black solid 2px;
+    border-radius: 15px;
 }
