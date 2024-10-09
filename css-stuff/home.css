@@ -15,7 +15,6 @@ header{
     color: #F2B705;
     font-size: 12px;
     background-color: #003642;
-    padding: px;
     height: 60px;
 }
 
@@ -28,7 +27,7 @@ h3 {
     height: 51.6px;
 }
 
-a, .phone, .logo-text { 
+.link, .phone { 
     display: flex;
     flex-wrap: wrap;
     color: #F2B705;
@@ -43,9 +42,26 @@ a, .phone, .logo-text {
     border-radius: 10px;
 }
 
-h2 {
+.logo-text  {
     display: flex;
-    justify-self: flex-start;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    margin-top: 4.2px;
+    color: #F2B705;
+    text-decoration: none;
+    border: black solid 1px;
+    background-color: #024959;
+    padding: 10px;
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #F2B705;
 }
 
 /* Main Image Section */
@@ -216,14 +232,17 @@ h2 {
 
 footer {
     display: flex;
+    flex-wrap: wrap;
     margin: 0px;
     background-color: #003642;
     
 }
 
 .logo2 {
+    display: flex;
     border: black solid 3px;
     border-radius: 15px;
+    
 }
 
 .logo2-text {
@@ -238,4 +257,20 @@ footer {
     font-size: 35px;
     border: black solid 2px;
     border-radius: 15px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    color: #F2B705;
+    margin-right: 40%;
+}
+
+.contacts {
+    text-align: center;
+    width: 271px;
+    height: 84;
+    justify-self: flex-end;
+    
 }
