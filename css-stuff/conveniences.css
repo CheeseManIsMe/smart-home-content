@@ -101,3 +101,65 @@ a {
     object-fit: cover;
     border: #003642 3px solid;
 }
+
+/* Content Section */
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+
+}
+
+.voice-clock {
+    display: flex;
+    flex-direction: row;
+
+}
+
+/* Footer Section */
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    background-color: #003642;
+    
+}
+
+.logo2 {
+    display: flex;
+    border: black solid 3px;
+    border-radius: 15px;
+    
+}
+
+.logo2-text {
+    justify-content: center;
+    align-self: center;
+    background-color: #024959;
+    width: 250px;
+    height: 50px;
+    margin-left: 50px;
+    padding: 25px;
+    text-align: center;
+    font-size: 35px;
+    border: black solid 2px;
+    border-radius: 15px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    color: #F2B705;
+    margin-right: 40%;
+}
+
+.contacts {
+    text-align: center;
+    width: 271px;
+    height: 84;
+    justify-self: flex-end;
+    
+}
