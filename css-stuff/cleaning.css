@@ -102,6 +102,41 @@ a {
     border: #003642 3px solid;
 }
 
+/* Content Section */
+
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+.mouse, .rat, .washer {
+    display: flex;
+    flex-direction: column;
+    width: 410px;
+    text-align: center;
+    align-items: center;
+    background: #016E86;
+    border: #003642 solid 3px;
+}
+
+.text {
+    margin: 0px;
+    width: 400px;
+    padding: 10px;
+}
+
+.htext {
+    height: 25px;
+}
+
+.summary {
+    background: #003642;
+    padding: 15px;
+    margin: 50px;
+    border-radius: 15px;
+}
+
 /* Footer Section */
 
 footer {

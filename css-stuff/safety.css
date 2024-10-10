@@ -102,6 +102,49 @@ a {
     border: #003642 3px solid;
 }
 
+/* Content Section */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-items: center;
+    align-content: space-around;
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    background: #003642;
+    padding: 15px;
+    margin: 50px;
+    border-radius: 15px;
+    width: 1217.840px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.snake, .mouse, .alarm, .sprinklers {
+    width: 556px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background: #016E86;
+    border: #003642 solid 3px;
+    margin: 100px;
+}
+
+.htext {
+    height: 25px;
+}
+
 /* Footer Section */
 
 footer {

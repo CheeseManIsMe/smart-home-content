@@ -106,15 +106,56 @@ a {
 
 main {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    justify-self: center;
+    justify-items: center;
+    align-content: space-around;
 
 }
 
-.voice-clock {
+.content {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    margin: 25px;
+    background: #016E86;
+    justify-items: center;
+    align-content:space-between;
+    border-radius: 15px;
+    border: #003642 solid 3px;
+}
 
+.txtr {
+width: 659px;
+padding: 10px;
+order: 1;
+}
+
+.txtl {
+width: 659px;
+padding: 10px;
+order: -2;
+
+}
+
+.content-img {
+    order: -1;
+    border-radius: 25px;
+    border: #003642 solid 3px;
+    margin: 10px;
+}
+
+.heading {
+    width: stretch;
+    display: flex;
+    justify-content: center;
+}
+
+.summary {
+    background: #003642;
+    padding: 15px;
+    margin: 50px;
+    border-radius: 15px;
 }
 
 /* Footer Section */
