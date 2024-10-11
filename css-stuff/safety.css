@@ -3,6 +3,19 @@ body {
     color: white;
     margin: 0px;
     font-family: 'Times New Roman', Times, serif;
+    
+}
+
+p {
+    font-size: 20px;
+}
+
+h2 {
+    color: #F2B705;
+}
+
+h1 {
+    color: #F28705;
 }
 
 /* Navbar Section */
@@ -57,7 +70,9 @@ h3 {
     height: 30px;
     width: 150px;
     border-radius: 10px;
+    margin-right: 850px;
 }
+
 
 a {
     text-decoration: none;
@@ -122,6 +137,8 @@ main {
     margin: 50px;
     border-radius: 15px;
     width: 1217.840px;
+    margin-left:19%;
+    text-align: center;
 }
 
 .content {
@@ -143,6 +160,12 @@ main {
 
 .htext {
     height: 25px;
+    font-size: 25px;
+    color: #F2B705;
+}
+
+img {
+    border: #003642 solid 3px;
 }
 
 /* Footer Section */
@@ -182,12 +205,13 @@ footer {
     flex-direction: column;
     color: #F2B705;
     margin-right: 40%;
+    padding: 15px;
 }
 
 .contacts {
     text-align: center;
     width: 271px;
-    height: 84;
+    height: 84px;
     justify-self: flex-end;
-    
+    font-size: 15px;
 }
